@@ -20,10 +20,10 @@ export const common = {
   companyDescription: '우주적 사고로 미래를 준비하는 혁신적 교육 기관. 탐험하는 배움이 실제 역량으로 이어지도록 설계된 커리큘럼을 제공합니다.',
   
   // Contact info
-  address: '서울특별시 강남구 테헤란로 123\n아이캔 우주교육센터 5층',
-  phone: '02-1234-5678',
-  email: 'info@ican-space.edu',
-  businessHours: '평일 09:00-21:00\n주말 10:00-18:00',
+  address: '11F and 16F Strata 100 Building\nEmerald Ave., Ortigas Center\nPasig City, Philippines',
+  phone: '+632 5310 5375',
+  email: 'teachers.ican@gmail.com',
+  businessHours: '평일: 09:00 - 21:00\n주말: 10:00 - 18:00',
   
   // Footer
   programs: '프로그램',

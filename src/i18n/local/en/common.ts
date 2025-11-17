@@ -21,15 +21,15 @@ export const common = {
   companyDescription: 'An innovative educational institution that prepares for the future with cosmic thinking. We provide a curriculum designed to turn exploratory learning into real competencies.',
   
   // Contact info
-  address: '123 Teheran-ro, Gangnam-gu, Seoul\nICAN Space Education Center 5F',
-  phone: '02-1234-5678',
-  email: 'info@ican-space.edu',
-  businessHours: 'Weekdays 09:00-21:00\nWeekends 10:00-18:00',
+  address: '11F and 16F Strata 100 Building\nEmerald Ave., Ortigas Center\nPasig City, Philippines',
+  phone: '+632 5310 5375',
+  email: 'teachers.ican@gmail.com',
+  businessHours: 'Weekdays: 09:00 - 21:00\nWeekends: 10:00 - 18:00',
   
   // Footer
   programs: 'Programs',
   support: 'Support',
-  contactInfo: 'Contact Info',
+  contactInfo: 'Get in Touch',
   copyright: '© 2024 ICAN Space Education. All rights reserved.',
   privacyPolicy: 'Privacy Policy',
   termsOfService: 'Terms of Service',
