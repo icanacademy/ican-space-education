@@ -1,0 +1,34 @@
+{
+  "hero": {
+    "mainTitle": "우주를 배우다,",
+    "mainSubtitle": "미래를 바꾼다",
+    "brandText": "EDUSPACE Problem Solving Class - 초등 4-5학년 전문 프로그램",
+    "description": "8주 동안 지구과학부터 AI까지, 실습 중심 우주 탐사 프로젝트로",
+    "descriptionHighlight": "문제해결 능력",
+    "descriptionEnd": "을 키웁니다.",
+    "primaryButtonText": "프로그램 신청",
+    "primaryButtonIcon": "ri-send-plane-line",
+    "primaryButtonLink": "/contact",
+    "secondaryButtonText": "8주 커리큘럼 보기",
+    "secondaryButtonIcon": "ri-book-open-line",
+    "secondaryButtonLink": "/curriculum",
+    "backgroundImage": "https://readdy.ai/api/search-image?query=Futuristic%20space%20school%20classroom%20with%20diverse%20students%20and%20teachers%20working%20together%2C%20holographic%20displays%20showing%20solar%20system%20models%2C%20friendly%20teaching%20robots%20assisting%20children%2C%20students%20building%20spacecraft%20models%2C%20interactive%20cosmic%20learning%20stations%2C%20modern%20educational%20technology%2C%20warm%20lighting%20creating%20inspiring%20atmosphere%2C%20collaborative%20learning%20environment%20with%20space-themed%20educational%20materials%2C%20advanced%20laboratory%20setting%20with%20astronomical%20instruments&width=1920&height=1080&seq=hero-space-school&orientation=landscape",
+    "stats": [
+      {
+        "value": "8주",
+        "label": "완성 프로그램",
+        "color": "#1BE7FF"
+      },
+      {
+        "value": "초등 4-5",
+        "label": "학년 맞춤",
+        "color": "#6C63FF"
+      },
+      {
+        "value": "7개 주제",
+        "label": "우주 탐사",
+        "color": "#FFC145"
+      }
+    ]
+  }
+}
