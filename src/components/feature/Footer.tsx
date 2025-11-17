@@ -22,17 +22,14 @@ const Footer = () => {
               {t('common:companyDescription')}
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="w-10 h-10 bg-[#1BE7FF]/20 hover:bg-[#1BE7FF] rounded-full flex items-center justify-center transition-colors cursor-pointer">
+              <a href="https://www.youtube.com/@ICanBroadcast" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-[#1BE7FF]/20 hover:bg-[#1BE7FF] rounded-full flex items-center justify-center transition-colors cursor-pointer">
                 <i className="ri-youtube-fill text-lg"></i>
               </a>
-              <a href="#" className="w-10 h-10 bg-[#1BE7FF]/20 hover:bg-[#1BE7FF] rounded-full flex items-center justify-center transition-colors cursor-pointer">
+              <a href="https://www.instagram.com/ican.academy/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-[#1BE7FF]/20 hover:bg-[#1BE7FF] rounded-full flex items-center justify-center transition-colors cursor-pointer">
                 <i className="ri-instagram-fill text-lg"></i>
               </a>
-              <a href="#" className="w-10 h-10 bg-[#1BE7FF]/20 hover:bg-[#1BE7FF] rounded-full flex items-center justify-center transition-colors cursor-pointer">
+              <a href="https://www.facebook.com/ICANORTIGAS/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-[#1BE7FF]/20 hover:bg-[#1BE7FF] rounded-full flex items-center justify-center transition-colors cursor-pointer">
                 <i className="ri-facebook-fill text-lg"></i>
-              </a>
-              <a href="#" className="w-10 h-10 bg-[#1BE7FF]/20 hover:bg-[#1BE7FF] rounded-full flex items-center justify-center transition-colors cursor-pointer">
-                <i className="ri-kakao-talk-fill text-lg"></i>
               </a>
             </div>
           </div>
@@ -41,11 +38,11 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-6" style={{ fontFamily: 'Montserrat, sans-serif' }}>{t('common:programs')}</h4>
             <ul className="space-y-3">
-              <li><a href="#" className="text-gray-300 hover:text-[#1BE7FF] transition-colors cursor-pointer">{t('home:satelliteDataLiteracy')}</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-[#1BE7FF] transition-colors cursor-pointer">{t('home:roverDesignSprint')}</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-[#1BE7FF] transition-colors cursor-pointer">{t('home:spaceEconomySimulation')}</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-[#1BE7FF] transition-colors cursor-pointer">{t('home:spaceStationEcosystem')}</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-[#1BE7FF] transition-colors cursor-pointer">{t('home:customCurriculum')}</a></li>
+              <li><Link to="/curriculum" className="text-gray-300 hover:text-[#1BE7FF] transition-colors cursor-pointer">{t('home:satelliteDataLiteracy')}</Link></li>
+              <li><Link to="/curriculum" className="text-gray-300 hover:text-[#1BE7FF] transition-colors cursor-pointer">{t('home:roverDesignSprint')}</Link></li>
+              <li><Link to="/curriculum" className="text-gray-300 hover:text-[#1BE7FF] transition-colors cursor-pointer">{t('home:spaceEconomySimulation')}</Link></li>
+              <li><Link to="/curriculum" className="text-gray-300 hover:text-[#1BE7FF] transition-colors cursor-pointer">{t('home:spaceStationEcosystem')}</Link></li>
+              <li><Link to="/contact" className="text-gray-300 hover:text-[#1BE7FF] transition-colors cursor-pointer">{t('home:customCurriculum')}</Link></li>
             </ul>
           </div>
 
@@ -54,10 +51,10 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-6" style={{ fontFamily: 'Montserrat, sans-serif' }}>{t('common:support')}</h4>
             <ul className="space-y-3">
               <li><Link to="/contact" className="text-gray-300 hover:text-[#1BE7FF] transition-colors cursor-pointer">{t('common:consultation')}</Link></li>
-              <li><a href="#" className="text-gray-300 hover:text-[#1BE7FF] transition-colors cursor-pointer">{t('home:learningGuide')}</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-[#1BE7FF] transition-colors cursor-pointer">{t('home:parentReviews')}</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-[#1BE7FF] transition-colors cursor-pointer">{t('home:faq')}</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-[#1BE7FF] transition-colors cursor-pointer">{t('home:technicalSupport')}</a></li>
+              <li><Link to="/curriculum" className="text-gray-300 hover:text-[#1BE7FF] transition-colors cursor-pointer">{t('home:learningGuide')}</Link></li>
+              <li><Link to="/projects" className="text-gray-300 hover:text-[#1BE7FF] transition-colors cursor-pointer">{t('home:parentReviews')}</Link></li>
+              <li><Link to="/faq" className="text-gray-300 hover:text-[#1BE7FF] transition-colors cursor-pointer">{t('home:faq')}</Link></li>
+              <li><Link to="/contact" className="text-gray-300 hover:text-[#1BE7FF] transition-colors cursor-pointer">{t('home:technicalSupport')}</Link></li>
             </ul>
           </div>
 
@@ -105,10 +102,10 @@ const Footer = () => {
 
             {/* Legal Links */}
             <div className="flex flex-wrap justify-center gap-6 text-sm">
-              <a href="#" className="text-gray-300 hover:text-[#1BE7FF] transition-colors cursor-pointer">{t('common:privacyPolicy')}</a>
-              <a href="#" className="text-gray-300 hover:text-[#1BE7FF] transition-colors cursor-pointer">{t('common:termsOfService')}</a>
-              <a href="#" className="text-gray-300 hover:text-[#1BE7FF] transition-colors cursor-pointer">{t('common:educationPolicy')}</a>
-              <a href="https://readdy.ai/?origin=logo" className="text-gray-300 hover:text-[#1BE7FF] transition-colors cursor-pointer">{t('common:poweredBy')}</a>
+              <Link to="/privacy" className="text-gray-300 hover:text-[#1BE7FF] transition-colors cursor-pointer">{t('common:privacyPolicy')}</Link>
+              <Link to="/terms" className="text-gray-300 hover:text-[#1BE7FF] transition-colors cursor-pointer">{t('common:termsOfService')}</Link>
+              <Link to="/about" className="text-gray-300 hover:text-[#1BE7FF] transition-colors cursor-pointer">{t('common:educationPolicy')}</Link>
+              <a href="https://readdy.ai/?origin=logo" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-[#1BE7FF] transition-colors cursor-pointer">{t('common:poweredBy')}</a>
             </div>
 
             {/* Certifications */}

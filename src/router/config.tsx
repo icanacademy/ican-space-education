@@ -10,6 +10,9 @@ import BuilderPage from '../pages/builder/page';
 import CurriculumPage from '../pages/curriculum/page';
 import ProjectsPage from '../pages/projects/page';
 import AboutPage from '../pages/about/page';
+import FAQPage from '../pages/faq/page';
+import PrivacyPolicyPage from '../pages/privacy/page';
+import TermsOfServicePage from '../pages/terms/page';
 
 const routes: RouteObject[] = [
   {
@@ -51,6 +54,18 @@ const routes: RouteObject[] = [
   {
     path: '/builder',
     element: <BuilderPage />
+  },
+  {
+    path: '/faq',
+    element: <FAQPage />
+  },
+  {
+    path: '/privacy',
+    element: <PrivacyPolicyPage />
+  },
+  {
+    path: '/terms',
+    element: <TermsOfServicePage />
   },
   {
     path: '*',
